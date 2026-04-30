@@ -1,6 +1,7 @@
 package com.github.slmpc.epsilon_baritone;
 
 import com.github.epsilon.addon.EpsilonAddon;
+import com.github.slmpc.epsilon_baritone.modules.AutoElytra;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class EpsilonBaritone extends EpsilonAddon {
@@ -40,5 +41,7 @@ public class EpsilonBaritone extends EpsilonAddon {
     @Override
     public void onSetup() {
         addonSettings.start();
+
+        registerModule(AutoElytra.INSTANCE);
     }
 }

@@ -21,6 +21,13 @@
   "epsilon_baritone.settings.maxfallheightbucket": "Max Fall Height With Bucket",
   "epsilon_baritone.settings.minegoalupdateinterval": "Mine Goal Update Interval",
   "epsilon_baritone.settings.pathcutofffactor": "Path Cutoff Factor",
-  "epsilon_baritone.settings.prefix": "Command Prefix"
+  "epsilon_baritone.settings.prefix": "Command Prefix",
+  "epsilon_baritone.modules.auto elytra": "Auto Elytra",
+  "epsilon_baritone.modules.auto elytra.set seed": "Set Seed",
+  "epsilon_baritone.modules.auto elytra.seed": "Seed",
+  "epsilon_baritone.modules.auto elytra.target pos x": "Target Pos X",
+  "epsilon_baritone.modules.auto elytra.target pos y": "Target Pos Y",
+  "epsilon_baritone.modules.auto elytra.target pos z": "Target Pos Z",
+  "epsilon_baritone.modules.auto elytra.go": "Go"
 }
 

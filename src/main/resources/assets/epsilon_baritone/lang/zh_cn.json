@@ -21,6 +21,13 @@
   "epsilon_baritone.settings.maxfallheightbucket": "水桶缓落最大高度",
   "epsilon_baritone.settings.minegoalupdateinterval": "挖矿目标刷新间隔",
   "epsilon_baritone.settings.pathcutofffactor": "路径截断系数",
-  "epsilon_baritone.settings.prefix": "命令前缀"
+  "epsilon_baritone.settings.prefix": "命令前缀",
+  "epsilon_baritone.modules.auto elytra": "自动鞘翅飞行",
+  "epsilon_baritone.modules.auto elytra.set seed": "设置种子",
+  "epsilon_baritone.modules.auto elytra.seed": "种子",
+  "epsilon_baritone.modules.auto elytra.target pos x": "目标 X 坐标",
+  "epsilon_baritone.modules.auto elytra.target pos y": "目标 Y 坐标",
+  "epsilon_baritone.modules.auto elytra.target pos z": "目标 Z 坐标",
+  "epsilon_baritone.modules.auto elytra.go": "开始飞行"
 }
 
