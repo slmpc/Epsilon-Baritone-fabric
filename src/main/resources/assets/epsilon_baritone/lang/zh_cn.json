@@ -1,0 +1,26 @@
+{
+  "epsilon_baritone.settings.allowbreak": "允许破坏方块",
+  "epsilon_baritone.settings.allowplace": "允许放置方块",
+  "epsilon_baritone.settings.allowinventory": "允许整理物品栏",
+  "epsilon_baritone.settings.allowsprint": "允许疾跑",
+  "epsilon_baritone.settings.allowparkour": "允许跑酷",
+  "epsilon_baritone.settings.autotool": "自动切换工具",
+  "epsilon_baritone.settings.assumestep": "假定拥有自动上台阶",
+  "epsilon_baritone.settings.assumewalkonwater": "假定可以在水上行走",
+  "epsilon_baritone.settings.assumewalkonlava": "假定可以在岩浆上行走",
+  "epsilon_baritone.settings.freelook": "自由视角",
+  "epsilon_baritone.settings.rendergoal": "渲染目标",
+  "epsilon_baritone.settings.renderpath": "渲染路径",
+  "epsilon_baritone.settings.enterportal": "进入传送门",
+  "epsilon_baritone.settings.rightclickcontaineronarrival": "到达后打开容器",
+  "epsilon_baritone.settings.itemsaver": "耐久保护",
+  "epsilon_baritone.settings.chatcontrol": "聊天控制",
+  "epsilon_baritone.settings.prefixcontrol": "前缀命令控制",
+  "epsilon_baritone.settings.blockreachdistance": "方块触及距离",
+  "epsilon_baritone.settings.maxfallheightnowater": "无水最大坠落高度",
+  "epsilon_baritone.settings.maxfallheightbucket": "水桶缓落最大高度",
+  "epsilon_baritone.settings.minegoalupdateinterval": "挖矿目标刷新间隔",
+  "epsilon_baritone.settings.pathcutofffactor": "路径截断系数",
+  "epsilon_baritone.settings.prefix": "命令前缀"
+}
+

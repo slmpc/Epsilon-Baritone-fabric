@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "epsilon_baritone",
+	"version": "${version}",
+	"name": "Epsilon Baritone",
+	"description": "Support for Baritone in Epsilon.",
+	"authors": [
+		"Chen Meng"
+	],
+	"contact": {
+		"sources": "https://github.com/slmpc/Epsilon-Baritone-Fabric"
+	},
+	"license": "Apache-2.0",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.github.slmpc.epsilon_baritone.EpsilonBaritoneMod"
+		],
+		"open_epsilon:addon": [
+			"com.github.slmpc.epsilon_baritone.EpsilonBaritoneEntrypoint"
+		]
+	},
+	"mixins": [
+      	"epsilon_baritone.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"open_epsilon": ">=2026.3.0",
+		"baritone-meteor": "*"
+	}
+}

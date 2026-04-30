@@ -1,0 +1,44 @@
+package com.github.slmpc.epsilon_baritone;
+
+import com.github.epsilon.addon.EpsilonAddon;
+import net.fabricmc.loader.api.FabricLoader;
+
+public class EpsilonBaritone extends EpsilonAddon {
+
+    public static final EpsilonBaritone INSTANCE = new EpsilonBaritone();
+
+    private final BaritoneAddonSettings addonSettings;
+
+    private EpsilonBaritone() {
+        super(EpsilonBaritoneMod.MOD_ID);
+        this.addonSettings = new BaritoneAddonSettings(
+                this::boolSetting,
+                this::intSetting,
+                this::doubleSetting,
+                this::stringSetting
+        );
+    }
+
+    @Override
+    public String getDescription() {
+        return "An addon that integrates Baritone with Epsilon.";
+    }
+
+    @Override
+    public String getDisplayName() {
+        return "Epsilon Baritone";
+    }
+
+    @Override
+    public String getVersion() {
+        return FabricLoader.getInstance()
+                .getModContainer(EpsilonBaritoneMod.MOD_ID)
+                .map(container -> container.getMetadata().getVersion().getFriendlyString())
+                .orElse("unknown");
+    }
+
+    @Override
+    public void onSetup() {
+        addonSettings.start();
+    }
+}

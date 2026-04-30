@@ -1,0 +1,26 @@
+{
+  "epsilon_baritone.settings.allowbreak": "Allow Break",
+  "epsilon_baritone.settings.allowplace": "Allow Place",
+  "epsilon_baritone.settings.allowinventory": "Allow Inventory",
+  "epsilon_baritone.settings.allowsprint": "Allow Sprint",
+  "epsilon_baritone.settings.allowparkour": "Allow Parkour",
+  "epsilon_baritone.settings.autotool": "Auto Tool",
+  "epsilon_baritone.settings.assumestep": "Assume Step",
+  "epsilon_baritone.settings.assumewalkonwater": "Assume Walk On Water",
+  "epsilon_baritone.settings.assumewalkonlava": "Assume Walk On Lava",
+  "epsilon_baritone.settings.freelook": "Free Look",
+  "epsilon_baritone.settings.rendergoal": "Render Goal",
+  "epsilon_baritone.settings.renderpath": "Render Path",
+  "epsilon_baritone.settings.enterportal": "Enter Portal",
+  "epsilon_baritone.settings.rightclickcontaineronarrival": "Open Container On Arrival",
+  "epsilon_baritone.settings.itemsaver": "Item Saver",
+  "epsilon_baritone.settings.chatcontrol": "Chat Control",
+  "epsilon_baritone.settings.prefixcontrol": "Prefix Control",
+  "epsilon_baritone.settings.blockreachdistance": "Block Reach Distance",
+  "epsilon_baritone.settings.maxfallheightnowater": "Max Fall Height Without Water",
+  "epsilon_baritone.settings.maxfallheightbucket": "Max Fall Height With Bucket",
+  "epsilon_baritone.settings.minegoalupdateinterval": "Mine Goal Update Interval",
+  "epsilon_baritone.settings.pathcutofffactor": "Path Cutoff Factor",
+  "epsilon_baritone.settings.prefix": "Command Prefix"
+}
+

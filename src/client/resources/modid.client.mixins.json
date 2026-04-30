@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.example.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+      "com.github.slmpc.epsilon_baritone.client.mixin.ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
