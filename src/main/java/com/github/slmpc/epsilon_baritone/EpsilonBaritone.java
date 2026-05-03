@@ -1,8 +1,12 @@
 package com.github.slmpc.epsilon_baritone;
 
 import com.github.epsilon.addon.EpsilonAddon;
+import com.github.epsilon.events.bus.EventBus;
+import com.github.slmpc.epsilon_baritone.elytra.AutoElytraService;
 import com.github.slmpc.epsilon_baritone.modules.AutoElytra;
 import net.fabricmc.loader.api.FabricLoader;
+
+import java.lang.invoke.MethodHandles;
 
 public class EpsilonBaritone extends EpsilonAddon {
 
@@ -40,7 +44,10 @@ public class EpsilonBaritone extends EpsilonAddon {
 
     @Override
     public void onSetup() {
+        EventBus.INSTANCE.registerLambdaFactory(EpsilonBaritone.class.getPackageName(), (lookupInMethod, klass) -> (MethodHandles.Lookup) lookupInMethod.invoke(null, klass, MethodHandles.lookup()));
+
         addonSettings.start();
+        AutoElytraService.INSTANCE.initialize();
 
         registerModule(AutoElytra.INSTANCE);
     }

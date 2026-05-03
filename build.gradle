@@ -23,12 +23,9 @@ repositories {
 }
 
 loom {
-	splitEnvironmentSourceSets()
-
 	mods {
 		"epsilon_baritone" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 
@@ -43,7 +40,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-	implementation(files("epsilon_libs/open_epsilon-fabric-26.1.2-2026.3.0.jar"))
+	implementation(files("epsilon_libs/epsilon-fabric-26.1.2-2026.3.0.jar"))
 
 	implementation("meteordevelopment:baritone:26.1-SNAPSHOT")
 }

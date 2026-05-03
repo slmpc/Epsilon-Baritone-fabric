@@ -2,9 +2,9 @@ package com.github.slmpc.epsilon_baritone;
 
 import baritone.api.BaritoneAPI;
 import baritone.api.Settings;
-import com.github.epsilon.events.bus.EpsilonEventBus;
+import com.github.epsilon.events.bus.EventBus;
 import com.github.epsilon.events.bus.EventHandler;
-import com.github.epsilon.events.tick.TickEvent;
+import com.github.epsilon.events.impl.TickEvent;
 import com.github.epsilon.settings.impl.BoolSetting;
 import com.github.epsilon.settings.impl.DoubleSetting;
 import com.github.epsilon.settings.impl.IntSetting;
@@ -60,13 +60,12 @@ final class BaritoneAddonSettings {
         syncToBaritone();
 
         if (!subscribed) {
-            EpsilonEventBus.INSTANCE.subscribe(this);
+            EventBus.INSTANCE.subscribe(this);
             subscribed = true;
         }
     }
 
     @EventHandler
-    @SuppressWarnings("unused")
     private void onTick(TickEvent.Pre event) {
         syncToBaritone();
     }

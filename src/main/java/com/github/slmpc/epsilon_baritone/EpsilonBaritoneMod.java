@@ -1,5 +1,6 @@
 package com.github.slmpc.epsilon_baritone;
 
+import com.github.slmpc.epsilon_baritone.elytra.AutoElytraService;
 import net.fabricmc.api.ClientModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,6 @@ public class EpsilonBaritoneMod implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
-
+		AutoElytraService.INSTANCE.initializeClientHooks();
 	}
 }

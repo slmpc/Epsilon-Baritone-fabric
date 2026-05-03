@@ -16,7 +16,7 @@
 		"client": [
 			"com.github.slmpc.epsilon_baritone.EpsilonBaritoneMod"
 		],
-		"open_epsilon:addon": [
+		"epsilon:addon": [
 			"com.github.slmpc.epsilon_baritone.EpsilonBaritoneEntrypoint"
 		]
 	},
@@ -28,7 +28,7 @@
 		"minecraft": "~26.1.2",
 		"java": ">=25",
 		"fabric-api": "*",
-		"open_epsilon": ">=2026.3.0",
+		"epsilon": ">=2026.3.0",
 		"baritone-meteor": "*"
 	}
 }

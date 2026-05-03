@@ -3,6 +3,16 @@
 	"package": "com.github.slmpc.epsilon_baritone.mixins",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
+		"BaritoneUpdateTargetMixin",
+		"EntityEyeHeightMixin",
+		"FireworkRocketEntityMixin",
+		"PausedStateMixin"
+	],
+	"plugin": "com.github.slmpc.epsilon_baritone.mixins.EpsilonBaritoneMixinPlugin",
+	"client": [
+		"CameraMixin",
+		"GuiHudMixin",
+		"HeldItemRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
